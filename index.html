@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Adarsh Kushwaha</title>
+    <style>
+      :root {
+        --green: rgb(0, 255, 179);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h4>Adarsh Kushwaha</h4></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item px-sm-2">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item px-sm-2">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <section class="hero">
+      <div class="bg-dark text-light text-center text-sm-start p-5">
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+              <h1>
+                Hey I Am A Professional
+                <span style="color: var(--green)">Frontend Developer</span>
+              </h1>
+              <p class="lead">
+                I make website using new world tech like
+                <span style="color: var(--green)">React, Django</span> &
+                <span style="color: var(--green)">WordPress</span>
+              </p>
+              <button class="btn" style="background-color: var(--green)">
+                <b>Contact Me</b>
+              </button>
+            </div>
+            <img
+              src="images/hero2.svg"
+              alt="hero"
+              class="img-fluid w-50 d-none d-sm-block"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+
+    <section>
+      <div
+        class="text-dark text-center text-sm-start p-5"
+        style="background-color: var(--green)"
+      >
+        <div class="container">
+          <div class="d-sm-flex justify-content-between align-items-center">
+            <h4>
+              Sign Up To My Newsletter<br />
+              <!-- <span style="font-size: 15px; color: rgb(250, 62, 62);" >** I will not spam your mailbox with mail</span> -->
+            </h4>
+            <div class="input-group news-input">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="example@mail.com"
+                aria-label="email"
+                aria-describedby="button-addon2"
+              />
+              <button class="btn btn-dark" type="button" id="button-addon2">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- boxes -->
+    <section>
+      <div class="bg-dark text-center text-sm-start text-light p-5">
+        <div class="container">
+          <div class="text-center p-5"><h2>What Services I Provide ?</h2></div>
+          <div class="row text-center ">
+            <div class="col-md">
+              <div class="card bg-dark text-white shadow-lg p-3 mb-5 rounded">
+                <div class="card-body text-center">
+                  <img
+                    src="images/website.svg"
+                    alt=""
+                    class="img-fluid"
+                    style="width: 70%"
+                  />
+                  <h3 class="p-3">Web Development</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga enim velit nam ipsum doloremque rem.
+                  </p>
+                  <button class="btn" style="background-color: var(--green)">
+                    <b>Read More</b>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-dark text-white shadow-lg p-3 mb-5 rounded">
+                <div class="card-body text-center">
+                  <img
+                    src="images/maintain.svg"
+                    alt=""
+                    class="img-fluid"
+                    style="width: 75%"
+                  />
+                  <h3 class="p-3">Web Maintainance</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga enim velit nam ipsum doloremque rem.
+                  </p>
+                  <button class="btn" style="background-color: var(--green)">
+                    <b>Read More</b>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-dark text-white shadow-lg p-3 mb-5 rounded">
+                <div class="card-body text-center">
+                  <img
+                    src="images/seo.svg"
+                    alt=""
+                    class="img-fluid"
+                    style="width: 85%"
+                  />
+                  <h3 class="p-3">SEO Of Website</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga enim velit nam ipsum doloremque rem.
+                  </p>
+                  <button class="btn" style="background-color: var(--green)">
+                    <b>Read More</b>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
